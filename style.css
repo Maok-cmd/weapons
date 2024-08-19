@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&display=swap');
+
+body {
+    margin: 0;
+    background-image: url(img/walls.jpg);
+    background-size: cover;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: black;
+}
+
+.logo {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-shadow: 3px 3px 20px black;
+    text-decoration: none;
+}
+
+.container ul li a:hover {
+    transition: .2s;
+    background-color: rgb(63, 55, 55);
+    color: rgb(230, 23, 23);
+    border-radius: 50%;
+    padding: 8px 20px;
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+}
+
+.container ul li {
+    margin-left: 10px;
+}
+
+.weapon {
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 100px;
+    max-width: 200px;
+    border-radius: 10%;
+}
+
+.typeW {
+    font-size: 30px;
+    margin-left: 40px;
+    text-decoration: overline red;
+    margin-top: 0;
+    padding-top: 20px;
+    color: beige;
+}
+.typeW:hover{
+    text-transform: lowercase;
+}
+
+.navig {
+    background-image: url(img/military.avif);
+    background-size: cover;
+    min-height: 250px;
+    max-height: 500px;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0px 30px;
+    text-shadow: 2px 2px 2px rgb(19, 0, 0);
+}
+
+.btn {
+    color: #fff;
+    background-color: red;
+    border-radius: 20px;
+    margin: 0 20px 10px 20px;
+}
+
+.btn:hover {
+    transition: 0.2s;
+    color: red;
+    font-family: "Caveat", cursive;
+    background-color: #fff;
+    width: 200px;
+    font-weight: 900;
+    font-size: large;
+}
